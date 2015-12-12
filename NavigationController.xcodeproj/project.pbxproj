@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		C0115D601C1C20FB00790FF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0115D5F1C1C20FB00790FF7 /* AppDelegate.swift */; };
-		C0115D621C1C20FB00790FF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0115D611C1C20FB00790FF7 /* ViewController.swift */; };
 		C0115D651C1C20FB00790FF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0115D631C1C20FB00790FF7 /* Main.storyboard */; };
 		C0115D671C1C20FB00790FF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0115D661C1C20FB00790FF7 /* Assets.xcassets */; };
 		C0115D6A1C1C20FB00790FF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0115D681C1C20FB00790FF7 /* LaunchScreen.storyboard */; };
 		C0115D751C1C20FB00790FF7 /* NavigationControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0115D741C1C20FB00790FF7 /* NavigationControllerTests.swift */; };
 		C0115D801C1C20FB00790FF7 /* NavigationControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0115D7F1C1C20FB00790FF7 /* NavigationControllerUITests.swift */; };
+		C07593681C1C21D6009B0EF9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07593671C1C21D6009B0EF9 /* FirstViewController.swift */; };
+		C075936A1C1C21E1009B0EF9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07593691C1C21E1009B0EF9 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		C0115D5C1C1C20FB00790FF7 /* NavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0115D5F1C1C20FB00790FF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C0115D611C1C20FB00790FF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C0115D641C1C20FB00790FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C0115D661C1C20FB00790FF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0115D691C1C20FB00790FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		C0115D7B1C1C20FB00790FF7 /* NavigationControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0115D7F1C1C20FB00790FF7 /* NavigationControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllerUITests.swift; sourceTree = "<group>"; };
 		C0115D811C1C20FB00790FF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C07593671C1C21D6009B0EF9 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = ../FirstViewController.swift; sourceTree = "<group>"; };
+		C07593691C1C21E1009B0EF9 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				C0115D5F1C1C20FB00790FF7 /* AppDelegate.swift */,
-				C0115D611C1C20FB00790FF7 /* ViewController.swift */,
+				C07593671C1C21D6009B0EF9 /* FirstViewController.swift */,
+				C07593691C1C21E1009B0EF9 /* SecondViewController.swift */,
 				C0115D631C1C20FB00790FF7 /* Main.storyboard */,
 				C0115D661C1C20FB00790FF7 /* Assets.xcassets */,
 				C0115D681C1C20FB00790FF7 /* LaunchScreen.storyboard */,
@@ -256,8 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0115D621C1C20FB00790FF7 /* ViewController.swift in Sources */,
+				C075936A1C1C21E1009B0EF9 /* SecondViewController.swift in Sources */,
 				C0115D601C1C20FB00790FF7 /* AppDelegate.swift in Sources */,
+				C07593681C1C21D6009B0EF9 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +488,7 @@
 				C0115D861C1C20FB00790FF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0115D871C1C20FB00790FF7 /* Build configuration list for PBXNativeTarget "NavigationControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				C0115D891C1C20FB00790FF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0115D8A1C1C20FB00790FF7 /* Build configuration list for PBXNativeTarget "NavigationControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				C0115D8C1C1C20FB00790FF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
